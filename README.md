@@ -13,6 +13,16 @@
 
 人間による企画判断だけでなく、AIによる企画レビューの判定軸として利用できることを意図する。
 
+### 文書構成
+
+| 文書 | 内容 |
+| --- | --- |
+| README.md（本文書） | Value Continuity の定義、中心原則、5原則、判定構造。**定義と原則の正本** |
+| [value-continuity-business-planning.md](value-continuity-business-planning.md) | 業務企画・投資判断への適用 |
+| [value-continuity-system-design.md](value-continuity-system-design.md) | システム設計への適用 |
+
+適用文書は、本文書の定義と原則を各領域の言葉に読み替えたものである。表現が食い違う場合は本文書を優先する。
+
 ---
 
 ## 1. Value Continuity
@@ -41,13 +51,32 @@ Value Continuityの中心原則を **Value Asymmetry Principle** と呼ぶ。
 価値の継続には、この非対称が必要である。
 
 上だけを開けば、一度の失敗が全体へ広がる。  
-下だけを閉じれば、何も試せず、何も積み上がらない。
+下だけを閉じれば、何も試せず、次の価値も生まれない。
 
 **下を閉じる能力は、上に賭け続けるための原資である。**
 
 ---
 
-## 3. Upside — 次の価値を生む構造
+## 3. 5つの原則
+
+Value Asymmetry Principle は、次の5つの原則として実践される。
+
+1. **残す** — 業務・担当・技術が変わっても残るものを、先に決める。  
+   標準、判断根拠、データ、接続、技能。保有し続ける人のいないものは残らない。
+2. **見つける** — 平均的な改善量ではなく、再利用によって大きく広がる兆候を見る。  
+   二回目が安くなる。頼んでいない所から引き合いが来る。別の判断の材料になる。接続するほど一件あたりの価値が上がる。
+3. **閉じる** — 悪い広がりは予測せず、境界で止める。  
+   損失の上限を先に決め、失敗を局所化し、前提を境界で確かめ直し、単一点への依存を避ける。
+4. **試す** — 戻せる範囲で変更する。  
+   復旧・切替・撤退できる能力が、試せる回数を決める。
+5. **伝える** — 結論ではなく、根拠を次の判断へ渡す。  
+   受け取った側は、それを自分の文脈で再判断する。
+
+この順番には意味がある。何を残すかを決めていなければ、広がる兆候は見つけられない。悪い広がりを止められなければ、再び試すことはできない。そして伝えた根拠は、次の取り組みで「残す」ものの起点になる。
+
+---
+
+## 4. Upside — 次の価値を生む構造
 
 企画は、成果そのものだけでなく、成果が次の成果を生む構造を持つべきである。
 
@@ -69,7 +98,7 @@ Value Continuityの中心原則を **Value Asymmetry Principle** と呼ぶ。
 
 ---
 
-## 4. Downside — 継続不能を防ぐ構造
+## 5. Downside — 継続不能を防ぐ構造
 
 失敗をゼロにすることは目的ではない。
 
@@ -90,7 +119,7 @@ Downsideを閉じる目的は、守ることそのものではない。
 
 ---
 
-## 5. Asymmetry Check
+## 6. Asymmetry Check
 
 UpsideとDownsideは別々に評価しない。  
 同じ接続、同じ自動化、同じ標準化が、両方を増幅することがあるためである。
@@ -110,7 +139,7 @@ UpsideとDownsideは別々に評価しない。
 
 ---
 
-## 6. Continuity Check
+## 7. Continuity Check
 
 企画の現在価値ではなく、変化後に残る価値生成能力を確認する。
 
@@ -138,13 +167,18 @@ UpsideとDownsideは別々に評価しない。
 
 ---
 
-## 7. Decision
+## 8. Decision
 
 レビュー結果は、単なる点数ではなく、次の判断につなげる。
 
 ### Proceed
 
-Value Continuityを満たしており、現在の構造で進められる。
+Value Continuityを満たしており、現在の構造・現在の規模で進められる。
+
+### Expand
+
+Upsideの兆候が観測されており、Downsideの上限と復旧能力の範囲で、対象・規模・接続を広げる。
+平均的な効果が出ただけでは Expand の根拠にしない。
 
 ### Reframe
 
@@ -164,7 +198,7 @@ Value Continuityを満たしており、現在の構造で進められる。
 
 ---
 
-## 8. Review Output
+## 9. Review Output
 
 この文書を使って企画をレビューする場合、少なくとも次を出力する。
 
@@ -186,7 +220,7 @@ Value Continuityを満たしており、現在の構造で進められる。
    - Upside propagation と Downside containment が両立しているか
 
 5. **Decision**
-   - Proceed / Reframe / Limit / Defer / Retire
+   - Proceed / Expand / Reframe / Limit / Defer / Retire
 
 必要に応じて各項目を以下で示す。
 
@@ -198,7 +232,7 @@ Value Continuityを満たしており、現在の構造で進められる。
 
 ---
 
-## 9. Implementation Boundary
+## 10. Implementation Boundary
 
 この文書は実装方法を定めない。
 
