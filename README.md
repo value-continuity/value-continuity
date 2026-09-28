@@ -1,5 +1,11 @@
 # Value Continuity
 
+> **Upside は伝播可能にする。Downside は伝播させない。**
+
+Status: v0.1（公開初版） · License: [MIT](LICENSE)
+
+**English summary** — Value Continuity is a principle for checking, before implementation, whether a plan, investment, improvement or system keeps generating value through change and failure. It is defined as *keeping the ability to create the next value, even as work, people, technology and products change or fail*. Its central principle, the **Value Asymmetry Principle**, is: *make upside propagable; do not let downside propagate.* It is independent of any specific method; [VCDesign](https://github.com/VCDesign-org/vcdesign) implements it on the side of judgment and responsibility. The documents are written in Japanese.
+
 ## Purpose
 
 この文書は、企画・投資・業務改善・システム化において、  
@@ -22,6 +28,18 @@
 | [value-continuity-system-design.md](value-continuity-system-design.md) | システム設計への適用 |
 
 適用文書は、本文書の定義と原則を各領域の言葉に読み替えたものである。表現が食い違う場合は本文書を優先する。
+
+### AIレビューでの使い方
+
+AIに企画をレビューさせる場合は、本文書（必要に応じて該当する適用文書）を渡したうえで、例えば次のように指示する。
+
+```text
+添付の Value Continuity（README.md）を判定軸として、次の企画をレビューしてください。
+「9. Review Output」の形式で、Upside / Downside / Continuity / Asymmetry / Decision を
+ok / warning / blocking と根拠付きで出力してください。
+
+[企画の内容]
+```
 
 ---
 
@@ -240,7 +258,7 @@ Value Continuityは、経営判断、企画、組織設計、システム設計�
 
 個別の方法論は、この原則を満たすための手段であり、Value Continuityそのものではない。
 
-VCDesign（Value Continuity Design）は、そのうち特に **判断と責任** の面からValue Continuityを実装する方法論として位置づける。
+VCDesign（Value Continuity Design）は、そのうち特に **判断と責任** の面からValue Continuityを実装する方法論として位置づける（[VCDesign-org/vcdesign](https://github.com/VCDesign-org/vcdesign) / [vcdesign.org](https://vcdesign.org)）。
 
 方法論は変更されてもよい。  
 この文書が定めるのは、その上位にある判定構造である。
@@ -262,3 +280,10 @@ Value Continuityとは、
 企画時に問うべきことは、単に「効果があるか」「安全か」ではない。
 
 > **価値が次の価値を生み、失敗してもその活動を続けられる構造になっているか。**
+
+---
+
+## License
+
+本リポジトリは **MIT License** である。[LICENSE](LICENSE) を参照。
+引用・改変・再利用を歓迎する。Upside は伝播可能にする。
