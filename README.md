@@ -28,6 +28,7 @@ Status: v0.1（公開初版） · License: [MIT](LICENSE)
 | [value-continuity-system-design.md](value-continuity-system-design.md) | システム設計への適用 |
 
 適用文書は、本文書の定義と原則を各領域の言葉に読み替えたものである。表現が食い違う場合は本文書を優先する。
+適用文書は、本文書の5原則を同じ順番・同じ数のまま骨格として持つ。領域に固有の事項は、5原則の後に「補足」として置き、原則の数を増やさない。
 
 ### AIレビューでの使い方
 
