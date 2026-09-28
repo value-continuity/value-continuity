@@ -265,8 +265,6 @@ VCDesign（Value Continuity Design）は、このうち特に
 
 VCDesignはDownsideだけを扱うものではない。
 
-今後は、
-
 - Negative Δ を局所化し、伝播させない
 - Positive Δ を観測し、意味づけし、次の価値へつなげる
 

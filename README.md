@@ -212,13 +212,13 @@ Value Continuityを満たしており、現在の構造・現在の規模で進�
 Upsideの兆候が観測されており、Downsideの上限と復旧能力の範囲で、対象・規模・接続を広げる。
 平均的な効果が出ただけでは Expand の根拠にしない。
 
-### Reframe
-
-価値、対象、境界、前提のいずれかを再定義する必要がある。
-
 ### Limit
 
 価値はあるがDownsideの伝播範囲が広すぎるため、対象・権限・規模・期間などを限定する。
+
+### Reframe
+
+価値、対象、境界、前提のいずれかを再定義する必要がある。
 
 ### Defer
 
@@ -253,7 +253,7 @@ Upsideの兆候が観測されており、Downsideの上限と復旧能力の範
    - Upside propagation と Downside containment が両立しているか
 
 5. **Decision**
-   - Proceed / Expand / Reframe / Limit / Defer / Retire
+   - Proceed / Expand / Limit / Reframe / Defer / Retire
 
 必要に応じて各項目を以下で示す。
 
