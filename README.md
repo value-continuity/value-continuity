@@ -36,7 +36,7 @@ AIに企画をレビューさせる場合は、本文書（必要に応じて該
 
 ```text
 添付の Value Continuity（README.md）を判定軸として、次の企画をレビューしてください。
-「9. Review Output」の形式で、Upside / Downside / Continuity / Asymmetry / Decision を
+`Review Output` セクションの形式で、Upside / Downside / Continuity / Asymmetry / Decision を
 ok / warning / blocking と根拠付きで出力してください。
 
 [企画の内容]
