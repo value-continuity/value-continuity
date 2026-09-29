@@ -2,7 +2,7 @@
 
 > **Upside は伝播可能にする。Downside は伝播させない。**
 
-Status: v0.1（公開初版） · License: [MIT](LICENSE)
+Status: v0.1（公開初版） · License: [CC BY 4.0](LICENSE)
 
 **English summary** — Value Continuity is a principle for checking, before implementation, whether a plan, investment, improvement or system keeps generating value through change and failure. It is defined as *keeping the ability to create the next value, even as work, people, technology and products change or fail*. Its central principle, the **Value Asymmetry Principle**, is: *make upside propagable; do not let downside propagate.* It is independent of any specific method; [VCDesign](https://github.com/VCDesign-org/vcdesign) implements it on the side of judgment and responsibility. The documents are written in Japanese.
 
@@ -300,5 +300,6 @@ Value Continuityとは、
 
 ## License
 
-本リポジトリは **MIT License** である。[LICENSE](LICENSE) を参照。
+本リポジトリは **Creative Commons Attribution 4.0 International（CC BY 4.0）** である。[LICENSE](LICENSE) を参照。
+出典（Value Continuity Project）を表示すれば、引用・改変・再配布・商用利用を含めて自由に利用できる。
 引用・改変・再利用を歓迎する。Upside は伝播可能にする。
